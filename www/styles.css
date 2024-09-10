@@ -1,0 +1,60 @@
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fefefe; /* Light background */
+  color: #333; /* Standard text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+.main-header {
+  background-color: white; /* White background */
+  height: auto; /* Let height adjust based on content */
+  border-bottom: 0.1 px solid #ddd; /* Add a subtle bottom border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+}
+
+/* Styling for the dashboard header title */
+.custom-title {
+  color: White; /* White text color */
+  font-size: 24px; /* Visible title size */
+  font-family: 'Arial', cursive, sans-serif;
+  margin: 0;
+}
+
+/* Sidebar */
+.main-sidebar {
+  background-color: #f0f0f0; /* Light gray sidebar */
+}
+
+/* Sidebar Menu Item */
+.sidebar-menu a {
+  color: #333; /* Text color */
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Sidebar Menu Item Hover Effect */
+.sidebar-menu a:hover {
+  background-color: #d71e00; /* Red hover effect */
+  color: white;
+}
+
+/* Sidebar Active Tab */
+.sidebar-menu a.active {
+  background-color: #d71e00;
+  color: white;
+  font-weight: bold;
+}
+
+/* Add signature.png to bottom right corner */
+#sig {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px !important; /* Force the width */
+}

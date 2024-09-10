@@ -1,0 +1,140 @@
+##### NAME AND PURPOSE #################################################################################################################################################################################################
+"<3 Shiny" - why? Because the application allows for interrogation of factors relating to cardiovascular health outcomes for patients who have experienced a heart attack + because we love shiny of course.
+- the data is mock data.
+- built in a shinydashboard context as i've found it is the most intuitive for creating multiple tab items.
+
+##### AUTHOR #################################################################################################################################################################################################
+- All code written by Dr Tom Hunter who consents to its wider use, adaptation, and monetisation.
+
+##### DATA #################################################################################################################################################################################################
+- shiny_df = ~73k or mock cardiovascular data which has undergone significant imputation and then averaging using the MICE package
+- shiny_df_root = ~73k rows of the same data without imputation, to allow for interrogation of the effectiveness of the imputation process.
+
+##### DATA DICTIONARY #################################################################################################################################################################################################
+This dataset contains various health-related data points recorded for patients attending the hospital. Below is a description of each variable:
+- There is a basic naming convention in the app such that a grouping variable starts with "Demographic_" and a numeric variable starts with "Num_"
+- This is both for the user but also allows for automatic variable input as long as the modder sticks to this naming convention when feature engineering with the dataset.
+
+##### Unique_id:
+
+##### Description: A unique patient identifier derived from their NHS number. This ensures anonymity while maintaining a unique reference for each patient.
+Type: String or Numeric (depending on your implementation).
+Patient_sex:
+
+##### Description: The sex of the patient, typically classified as Male or Female.
+Type: Categorical (e.g., "Male", "Female").
+Arrival_at_hospital:
+
+##### Description: The date the patient was admitted to the hospital. It provides insight into the timeline of the patient's care.
+Type: Date (format: YYYY-MM-DD).
+STEMI:
+
+##### Description: Refers to the type of heart attack the patient experienced. "STEMI" (ST-Elevation Myocardial Infarction) and "nSTEMI" (Non-ST Elevation Myocardial Infarction) are two different forms of heart attacks.
+Type: Categorical (e.g., "STEMI", "nSTEMI").
+Blood_glucose:
+
+##### Description: The blood glucose level of the patient at the time of admission, measured in mmol/L. This is a critical indicator of the patient’s metabolic state.
+Type: Numeric (e.g., 4.5, 7.8).
+Height:
+
+##### Description: The patient’s height measured in centimeters (cm). This is often used in conjunction with weight to calculate BMI (Body Mass Index).
+Type: Numeric (e.g., 172, 185).
+Weight:
+
+##### Description: The patient’s weight in kilograms (kg), which can be used alongside height to assess health metrics such as BMI.
+Type: Numeric (e.g., 70.5, 85.3).
+Creatinine:
+
+##### Description: The patient’s blood creatinine level at admission, measured in micromoles per liter (umol/L). Elevated levels could indicate kidney dysfunction.
+Type: Numeric (e.g., 75, 110).
+Cholesterol:
+
+##### Description: The patient’s total serum cholesterol level, measured in mmol/L. High levels are associated with an increased risk of cardiovascular diseases.
+Type: Numeric (e.g., 4.5, 6.2).
+Systolic_bp:
+
+##### Description: The patient’s systolic blood pressure at admission, measured in millimeters of mercury (mmHg). This represents the pressure in the arteries during heart contractions.
+Type: Numeric (e.g., 120, 140).
+DTB (Door-to-Balloon Time):
+
+##### Description: The time in minutes from the patient’s arrival at the hospital (door) to the inflation of a balloon in the coronary artery (balloon), in cases of angioplasty. This is relevant only for patients who received this procedure.
+Type: Numeric (e.g., 90, 120).
+Death_in_hospital:
+
+##### Description: A binary variable indicating whether the patient died in the hospital. A value of 1 means the patient died in the hospital, and 0 indicates survival.
+Type: Binary (1 for death, 0 for survival).
+Required Libraries
+The following R libraries are used in the application to handle data, create visualizations, and manage the user interface:
+
+##### REQUIREMENTS #################################################################################################################################################################################################
+library(shinydashboard)  # For creating a dashboard layout in Shiny.
+library(shiny)  # The main Shiny library for building the app.
+library(DT)  # For rendering interactive tables.
+library(tidyverse)  # A collection of packages for data manipulation and visualization.
+library(kableExtra)  # For generating tables in HTML and LaTeX.
+library(reshape2)  # For reshaping data (e.g., melting and casting).
+library(janitor)  # For cleaning data and creating tidy data frames.
+library(zoo)  # For working with ordered observations (especially time series).
+library(rlang)  # Tools for advanced programming with R.
+library(glue)  # For interpolating strings.
+library(stringr)  # For string manipulation.
+library(plotly)  # For creating interactive plots.
+library(fresh)  # For adding custom themes to the Shiny dashboard.
+library(sass)  # For writing and compiling SCSS.
+library(sf)  # For working with geospatial data.
+library(shinyWidgets)  # For enhancing the Shiny interface with additional widgets.
+library(writexl)  # For writing data to Excel files.
+library(logger)  # For logging messages during the app runtime.
+Menu Items (Tabs)
+The application has multiple tabs, each representing a different data view or functionality. Below is a list of the menu items and their corresponding tab names:
+Front Page: The home tab of the application.
+
+
+##### MENU ITEMS (tabs) #################################################################################################################################################################################################
+The application consists of several tabs, each providing different functionalities:
+
+Front Page: The home tab of the application.
+Frequencies: Displays frequency counts of selected variables.
+Proportions: 1 Group: Shows proportions for a single group.
+Proportions: 2 Groups: Displays comparative proportions for two groups.
+Averages: 1 Group: Presents average values for a single group.
+Averages: 2 Groups: Shows comparative average values for two groups.
+Line: 1 group: Line plot for a single group over time.
+Line: 2 groups: Comparative line plot for two groups over time.
+Bar: Simple: Simple bar chart visualization.
+Bar: Stacked: Stacked bar chart to show proportions within categories.
+Bar: Grouped: Grouped bar chart for side-by-side comparison.
+Area: Stacked: Stacked area chart visualization.
+Area: %: Displays area chart as percentage proportions.
+Scatterplots: Scatter plot for grouped data.
+Density: Density plot for visualizing data distributions.
+Running the Application Locally:
+
+
+##### LOCAL INSTALL #################################################################################################################################################################################################
+# Step 1: Install R and the Required Packages
+
+# 1. Install R from the official CRAN website: https://cran.r-project.org/
+# 2. Open R and install the devtools package:
+#    install.packages("devtools")
+
+# 3. Install the HeartShiny package from GitHub using the following command:
+#    devtools::install_github("drtjh1988/HeartShiny")
+
+
+##### RUN LOCALLY FROM DESKTOP-TO-BROWSER FOR NON-R-USERS (POST_INSTALLATION) #################################################################################################################################################################################################
+For running the application from your local Windows machine, you can use the following method via a .bat file. Here’s a simplified workflow for doing so:
+
+Ensure that you have R installed on your machine.
+Use a Windows batch file to start the application locally.
+A sample batch file to run the app:
+
+swift
+Copy code
+@echo off
+set R_SCRIPT="C:\path\to\R\bin\x64\R.exe"
+set APP_DIR=C:\\path\\to\\your\\app\\directory
+
+%R_SCRIPT% -e "options(error = function() {cat('An error has occurred:\n', geterrmessage(), '\n'); q('no')});"
+%R_SCRIPT% -e "shiny::runApp('%APP_DIR%', launch.browser = TRUE)" 2>&1
+pause
