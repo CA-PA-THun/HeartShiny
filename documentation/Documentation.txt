@@ -111,17 +111,6 @@ Density: Density plot for visualizing data distributions.
 Running the Application Locally:
 
 
-##### LOCAL INSTALL #################################################################################################################################################################################################
-# Step 1: Install R and the Required Packages
-
-# 1. Install R from the official CRAN website: https://cran.r-project.org/
-# 2. Open R and install the devtools package:
-#    install.packages("devtools")
-
-# 3. Install the HeartShiny package from GitHub using the following command:
-#    devtools::install_github("drtjh1988/HeartShiny")
-
-
 ##### RUN LOCALLY FROM DESKTOP-TO-BROWSER FOR NON-R-USERS (POST_INSTALLATION) #################################################################################################################################################################################################
 For running the application from your local Windows machine, you can use the following method via a .bat file. Here’s a simplified workflow for doing so:
 
