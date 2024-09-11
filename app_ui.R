@@ -187,7 +187,7 @@ app_ui <- function() {
         tabItem(
           tabName = "Areas",
           fluidRow(
-            column(width = 4, selectInput("Tab15Variable1", "Choose a grouping variable:", choices = names(shiny_df %>% select(starts_with("Demographic"))))),
+            column(width = 4, selectInput("Tab15Variable1", "Choose a grouping variable:", choices = names(shiny_df %>% select(starts_with("Demographic")) %>% select(-Demographic_Event_Number)))),
             column(width = 4, selectInput("Tab15Variable2", "Choose a numeric variable:", choices = names(shiny_df %>% select(starts_with("Num"))))),
             column(width = 4, selectInput("TimeVariable6", "Choose a time variable:", choices = c("Year_Quarter")))
           ),
@@ -203,7 +203,7 @@ app_ui <- function() {
         tabItem(
           tabName = "Areas2",
           fluidRow(
-            column(width = 4, selectInput("Tab16Variable1", "Choose a grouping variable:", choices = names(shiny_df %>% select(starts_with("Demographic"))))),
+            column(width = 4, selectInput("Tab16Variable1", "Choose a grouping variable:", choices = names(shiny_df %>% select(starts_with("Demographic")) %>% select(-Demographic_Event_Number)))),
             column(width = 4, selectInput("TimeVariable7", "Choose a time variable:", choices = c("Year_Quarter")))
           ),
           tabsetPanel(

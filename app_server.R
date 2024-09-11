@@ -519,11 +519,11 @@ app_server <- function(input, output, session) {
     
     Cab.Colours <- c(
       "#1a1a1a", # Dark grey/black for main accents (text or dark elements)
-      "#fcbb69", # Main pairing with black (muted orange)
+      "#d32f2f", # Red for errors or alerts
+      "#4caf50", # Green for positive or growth trends
       "#90caf9", # Light blue for secondary elements (data or highlights)
       "#8e24aa", # Muted purple for additional categories
-      "#4caf50", # Green for positive or growth trends
-      "#d32f2f", # Red for errors or alerts
+      "#fcbb69", # Main pairing with black
       "#fdd835", # Yellow for warnings or neutral data
       "#1e88e5", # Medium blue for primary data points
       "#bdbdbd", # Grey for less prominent data
@@ -702,11 +702,11 @@ app_server <- function(input, output, session) {
     
     Cab.Colours <- c(
       "#1a1a1a", # Dark grey/black for main accents (text or dark elements)
-      "#fcbb69", # Main pairing with black (muted orange)
+      "#d32f2f", # Red for errors or alerts
+      "#4caf50", # Green for positive or growth trends
       "#90caf9", # Light blue for secondary elements (data or highlights)
       "#8e24aa", # Muted purple for additional categories
-      "#4caf50", # Green for positive or growth trends
-      "#d32f2f", # Red for errors or alerts
+      "#fcbb69", # Main pairing with black
       "#fdd835", # Yellow for warnings or neutral data
       "#1e88e5", # Medium blue for primary data points
       "#bdbdbd", # Grey for less prominent data
@@ -795,11 +795,11 @@ app_server <- function(input, output, session) {
     
     Cab.Colours <- c(
       "#1a1a1a", # Dark grey/black for main accents (text or dark elements)
-      "#fcbb69", # Main pairing with black (muted orange)
+      "#d32f2f", # Red for errors or alerts
+      "#4caf50", # Green for positive or growth trends
       "#90caf9", # Light blue for secondary elements (data or highlights)
       "#8e24aa", # Muted purple for additional categories
-      "#4caf50", # Green for positive or growth trends
-      "#d32f2f", # Red for errors or alerts
+      "#fcbb69", # Main pairing with black
       "#fdd835", # Yellow for warnings or neutral data
       "#1e88e5", # Medium blue for primary data points
       "#bdbdbd", # Grey for less prominent data
@@ -1391,11 +1391,11 @@ app_server <- function(input, output, session) {
     # Copy colour palette over from Flourish
     Cab.Colours <- c(
       "#1a1a1a", # Dark grey/black for main accents (text or dark elements)
-      "#fcbb69", # Main pairing with black (muted orange)
+      "#d32f2f", # Red for errors or alerts
+      "#4caf50", # Green for positive or growth trends
       "#90caf9", # Light blue for secondary elements (data or highlights)
       "#8e24aa", # Muted purple for additional categories
-      "#4caf50", # Green for positive or growth trends
-      "#d32f2f", # Red for errors or alerts
+      "#fcbb69", # Main pairing with black
       "#fdd835", # Yellow for warnings or neutral data
       "#1e88e5", # Medium blue for primary data points
       "#bdbdbd", # Grey for less prominent data
@@ -1465,7 +1465,22 @@ app_server <- function(input, output, session) {
     TimeVar <- sym(input$TimeVariable6)
     
     # Copy colour palette over from Flourish
-    Cab.Colours <- c("#1a1a1a", "#fcbb69", "#57486b", "#a6d6ae", "#006278", "#fcceba", "#005743", "#c2bdde", "#9a1d4e", "#d4e5ef", "#e37222", "#7192be")
+    Cab.Colours <- c(
+      "#1a1a1a", # Dark grey/black for main accents (text or dark elements)
+      "#d32f2f", # Red for errors or alerts
+      "#4caf50", # Green for positive or growth trends
+      "#90caf9", # Light blue for secondary elements (data or highlights)
+      "#8e24aa", # Muted purple for additional categories
+      "#fcbb69", # Main pairing with black
+      "#fdd835", # Yellow for warnings or neutral data
+      "#1e88e5", # Medium blue for primary data points
+      "#bdbdbd", # Grey for less prominent data
+      "#5e35b1", # Muted violet for additional categories
+      "#ff7043", # Muted orange-red for extra contrast
+      "#00bfa5", # Teal for neutral highlights
+      "#ff4081", # Bright pink for attention or important notes
+      "#3949ab" # Indigo for high-contrast elements
+    )
     
     # Plot
     p <- ggplot(table15_data(), aes(x = {{ TimeVar }}, y = Mean, fill = {{ Var.Group }})) +
@@ -1572,11 +1587,11 @@ app_server <- function(input, output, session) {
     # Copy colour palette over from Flourish
     Cab.Colours <- c(
       "#1a1a1a", # Dark grey/black for main accents (text or dark elements)
-      "#fcbb69", # Main pairing with black (muted orange)
+      "#d32f2f", # Red for errors or alerts
+      "#4caf50", # Green for positive or growth trends
       "#90caf9", # Light blue for secondary elements (data or highlights)
       "#8e24aa", # Muted purple for additional categories
-      "#4caf50", # Green for positive or growth trends
-      "#d32f2f", # Red for errors or alerts
+      "#fcbb69", # Main pairing with black
       "#fdd835", # Yellow for warnings or neutral data
       "#1e88e5", # Medium blue for primary data points
       "#bdbdbd", # Grey for less prominent data
@@ -1650,11 +1665,11 @@ app_server <- function(input, output, session) {
     # Copy colour palette over from Flourish
     Cab.Colours <- c(
       "#1a1a1a", # Dark grey/black for main accents (text or dark elements)
-      "#fcbb69", # Main pairing with black (muted orange)
+      "#d32f2f", # Red for errors or alerts
+      "#4caf50", # Green for positive or growth trends
       "#90caf9", # Light blue for secondary elements (data or highlights)
       "#8e24aa", # Muted purple for additional categories
-      "#4caf50", # Green for positive or growth trends
-      "#d32f2f", # Red for errors or alerts
+      "#fcbb69", # Main pairing with black
       "#fdd835", # Yellow for warnings or neutral data
       "#1e88e5", # Medium blue for primary data points
       "#bdbdbd", # Grey for less prominent data
