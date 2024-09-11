@@ -1,3 +1,6 @@
+#### TRY ME ######
+ https://tomcab-1988.shinyapps.io/HeartShiny/
+
 ##### NAME AND PURPOSE #################################################################################################################################################################################################
 "<3 Shiny" - why? Because the application allows for interrogation of factors relating to cardiovascular health outcomes for patients who have experienced a heart attack + because we love shiny of course.
 - the data is mock data.
