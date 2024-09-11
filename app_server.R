@@ -398,7 +398,8 @@ app_server <- function(input, output, session) {
           Mean = mean({{ Var.Number }}, na.rm = TRUE),
           Median = median({{ Var.Number }}),
           Trimmed.Mean.20 = mean({{ Var.Number }}, trim = 0.2, na.rm = TRUE),
-          n()
+          n(),
+          .groups = "drop"  # Explicitly drop all grouping
         ) %>%
         mutate_if(is.numeric, round, 2)
       
@@ -414,7 +415,8 @@ app_server <- function(input, output, session) {
           Mean = mean({{ Var.Number }}, na.rm = TRUE),
           Median = median({{ Var.Number }}),
           Trimmed.Mean.20 = mean({{ Var.Number }}, trim = 0.2, na.rm = TRUE),
-          n()
+          n(),
+          .groups = "drop"  # Explicitly drop all grouping
         ) %>%
         mutate_if(is.numeric, round, 2)
       
@@ -479,7 +481,8 @@ app_server <- function(input, output, session) {
       dplyr::summarise(
         Mean = mean({{ Var.Number }}, na.rm = TRUE, trim = 0.2),
         Median = median({{ Var.Number }}),
-        n()
+        n(),
+        .groups = "drop"  # Explicitly drop all grouping
       ) %>%
       mutate_if(is.numeric, round, 2)
     
@@ -491,7 +494,8 @@ app_server <- function(input, output, session) {
       dplyr::summarise(
         Mean = mean({{ Var.Number }}, na.rm = TRUE, trim = 0.2),
         Median = median({{ Var.Number }}),
-        n()
+        n(),
+        .groups = "drop"  # Explicitly drop all grouping
       ) %>%
       mutate_if(is.numeric, round, 2)
     
@@ -660,7 +664,8 @@ app_server <- function(input, output, session) {
       dplyr::summarise(
         Mean = mean({{ Var.Number }}, na.rm = TRUE, trim = 0.2),
         Median = median({{ Var.Number }}),
-        n()
+        n(),
+        .groups = "drop"  # Explicitly drop all grouping
       ) %>%
       mutate_if(is.numeric, round, 2) %>%
       filter(!is.na({{ Var.Group }}), !grepl("NA|Other", as.character({{ Var.Group }}), ignore.case = TRUE))
@@ -906,7 +911,8 @@ app_server <- function(input, output, session) {
       dplyr::summarise(
         Mean = mean({{ Var.Number }}, na.rm = TRUE),
         Median = median({{ Var.Number }}),
-        n()
+        n(),
+        .groups = "drop"  # Explicitly drop all grouping
       ) %>%
       filter({{ TimeVar }} == levels({{ TimeVar }})[length(levels({{ TimeVar }}))]) %>%
       filter(!is.na({{ Var.Group }}), !grepl("NA|Other", as.character({{ Var.Group }}), ignore.case = TRUE)) %>%
@@ -1056,7 +1062,8 @@ app_server <- function(input, output, session) {
       dplyr::summarise(
         Mean = mean({{ Var.Number }}, na.rm = TRUE),
         Median = median({{ Var.Number }}),
-        n()
+        n(),
+        .groups = "drop"  # Explicitly drop all grouping
       ) %>%
       filter({{ TimeVar }} == levels({{ TimeVar }})[length(levels({{ TimeVar }}))]) %>%
       filter(!grepl("Other|NA", as.character({{ Var.Group1 }}), ignore.case = TRUE), !is.na({{ Var.Group1 }})) %>%
@@ -1212,7 +1219,8 @@ app_server <- function(input, output, session) {
       dplyr::summarise(
         Mean = mean({{ Var.Number }}, na.rm = TRUE),
         Median = median({{ Var.Number }}),
-        n()
+        n(),
+        .groups = "drop"  # Explicitly drop all grouping
       ) %>%
       mutate_if(is.numeric, round, 2) %>%
       filter({{ TimeVar }} == levels({{ TimeVar }})[length(levels({{ TimeVar }}))]) %>%
@@ -1361,7 +1369,8 @@ app_server <- function(input, output, session) {
       dplyr::summarise(
         Mean = mean((!!sym(Var.Number)), na.rm = TRUE),
         Median = median((!!sym(Var.Number))),
-        n()
+        n(),
+        .groups = "drop"  # Explicitly drop all grouping
       ) %>%
       mutate_if(is.numeric, round, 2) %>%
       filter(!grepl("Other|NA", as.character((!!sym(Var.Group))), ignore.case = TRUE), !is.na((!!sym(Var.Group))))
@@ -1533,7 +1542,7 @@ app_server <- function(input, output, session) {
     data <- dat.plot %>%
       filter(!grepl("Other|NA", as.character(!!Var.Group), ignore.case = TRUE), !is.na(!!Var.Group)) %>%
       group_by(!!sym(TimeVar), !!Var.Group) %>%
-      summarize(n = n()) %>%
+      summarize(n = n(),.groups = "drop") %>%
       spread(!!Var.Group, n) %>%
       ungroup()
     log_info(glue("[Session {session$userData$sessionCode}] Grouped and summarized data"))
