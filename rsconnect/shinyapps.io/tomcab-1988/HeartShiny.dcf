@@ -1,0 +1,13 @@
+name: HeartShiny
+title: HeartShiny
+username: tomcab-1988
+account: tomcab-1988
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12679996
+bundleId: 9089431
+url: https://tomcab-1988.shinyapps.io/HeartShiny/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: backup/backup.txt|log_file.log|README.md|Study.txt|www/logo.png|www/signature.png|www/styles.txt
