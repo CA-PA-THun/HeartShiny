@@ -1867,11 +1867,10 @@ app_server <- function(input, output, session) {
     
     Cab.Colours <- c(
       "#1a1a1a", # Dark grey/black for main accents (text or dark elements)
-      "#fcbb69", # Main pairing with black (muted orange)
-      "#90caf9", # Light blue for secondary elements (data or highlights)
-      "#8e24aa", # Muted purple for additional categories
-      "#4caf50", # Green for positive or growth trends
       "#d32f2f", # Red for errors or alerts
+      "#4caf50", # Green for positive or growth trends
+      "#90caf9", # Light blue for secondary elements (data or highlights)
+      "#8e24aa", # M Red for errors or alerts
       "#fdd835", # Yellow for warnings or neutral data
       "#1e88e5", # Medium blue for primary data points
       "#bdbdbd", # Grey for less prominent data
@@ -1920,11 +1919,10 @@ app_server <- function(input, output, session) {
     
     Cab.Colours <- c(
       "#1a1a1a", # Dark grey/black for main accents (text or dark elements)
-      "#fcbb69", # Main pairing with black (muted orange)
-      "#90caf9", # Light blue for secondary elements (data or highlights)
-      "#8e24aa", # Muted purple for additional categories
-      "#4caf50", # Green for positive or growth trends
       "#d32f2f", # Red for errors or alerts
+      "#4caf50", # Green for positive or growth trends
+      "#90caf9", # Light blue for secondary elements (data or highlights)
+      "#8e24aa", # MRed for errors or alerts
       "#fdd835", # Yellow for warnings or neutral data
       "#1e88e5", # Medium blue for primary data points
       "#bdbdbd", # Grey for less prominent data
