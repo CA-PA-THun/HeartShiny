@@ -3,7 +3,7 @@ app_ui <- function() {
   dashboardPage(
     dashboardHeader(
       title = tags$div(
-        HTML('<span class="custom-title">&#10084; Shiny</span>')
+        HTML('<span class="custom-title">&#10084; Shiny &#10084;</span>')
       )
     ),
     dashboardSidebar(
