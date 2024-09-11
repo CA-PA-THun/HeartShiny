@@ -51,10 +51,4 @@ body {
   font-weight: bold;
 }
 
-/* Add signature.png to bottom right corner */
-#sig {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 100px !important; /* Force the width */
-}
+

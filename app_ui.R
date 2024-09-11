@@ -31,7 +31,8 @@ app_ui <- function() {
       tags$head(
         tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
       ),
-      img(src = "signature.png", id = "sig"), 
+      # img(src = "mugshot.png", id = "mug"), 
+      img(src = "mugshot.png", id = "mug", style = "position: fixed; bottom: 20px; right: 20px; width: 100px; z-index: 9999;"),
       tabItems(
         # Front Page UI
         tabItem(
