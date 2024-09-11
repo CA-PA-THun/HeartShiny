@@ -122,20 +122,22 @@ app_server <- function(input, output, session) {
   
   output$table1 <- DT::renderDataTable({
     log_info(glue("[Session {session$userData$sessionCode}] Tab 1: Rendering data table"))
-    
-    dt <- DT::datatable(table_data(), options = list(scrollY = "200px"), class = "cell-border")
-    
+
+    dt <- DT::datatable(table_data(), options = list(scrollY = "200px"), class = "compact hover")
+
     dt <- dt %>%
       formatStyle(
         "Freq",
         backgroundColor = styleInterval(
           c(100, 300),
-          c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+          c("#ff4081", "#fcbb69", "#4caf50")
         )
       )
-    
+
     dt
   })
+  
+  
   
   # Download tab 1 data
   output$download <- downloadHandler(
@@ -190,7 +192,7 @@ app_server <- function(input, output, session) {
     log_info(glue("[Session {session$userData$sessionCode}] Tab 2: Rendering data table"))
     
     
-    dt <- DT::datatable(tab2_data(), options = list(scrollY = "200px"), class = "cell-border")
+    dt <- DT::datatable(tab2_data(), options = list(scrollY = "200px"), class = "compact hover")
     
     colnames <- colnames(tab2_data())
     
@@ -202,7 +204,7 @@ app_server <- function(input, output, session) {
           col,
           backgroundColor = styleInterval(
             c(100, 300),
-            c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+            c("#ff4081", "#fcbb69", "#4caf50")
           )
         )
     }
@@ -266,7 +268,7 @@ app_server <- function(input, output, session) {
     log_info(glue("[Session {session$userData$sessionCode}] Tab 3: Rendering data table"))
     
     
-    dt <- DT::datatable(tab3_data(), options = list(scrollY = "200px"), class = "cell-border")
+    dt <- DT::datatable(tab3_data(), options = list(scrollY = "200px"), class = "compact hover")
     
     colnames <- colnames(tab3_data())
     
@@ -278,7 +280,7 @@ app_server <- function(input, output, session) {
           col,
           backgroundColor = styleInterval(
             c(100, 300),
-            c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+            c("#ff4081", "#fcbb69", "#4caf50")
           )
         )
     }
@@ -349,7 +351,7 @@ app_server <- function(input, output, session) {
   output$table4 <- DT::renderDataTable({
     dt <- DT::datatable(tab4_data(),
                         options = list(scrollY = "200px"),
-                        class = "cell-border"
+                        class = "compact hover"
     )
     
     # Log rendering table 4
@@ -361,7 +363,7 @@ app_server <- function(input, output, session) {
       "n()",
       backgroundColor = styleInterval(
         c(100, 300),
-        c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+        c("#ff4081", "#fcbb69", "#4caf50")
       )
     )
     
@@ -430,7 +432,7 @@ app_server <- function(input, output, session) {
   output$table5 <- DT::renderDataTable({
     dt <- DT::datatable(tab5_data(),
                         options = list(scrollY = "200px"),
-                        class = "cell-border"
+                        class = "compact hover"
     )
     
     log_info(glue("[Session {session$userData$sessionCode}] Tab 5 data table rendered"))
@@ -440,7 +442,7 @@ app_server <- function(input, output, session) {
       "n()",
       backgroundColor = styleInterval(
         c(100, 300),
-        c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+        c("#ff4081", "#fcbb69", "#4caf50")
       )
     )
     
@@ -594,13 +596,13 @@ app_server <- function(input, output, session) {
     log_info(glue("[Session {session$userData$sessionCode}] Rendering table 10"))
     dt <- DT::datatable(table10_data(),
                         options = list(scrollY = "200px"),
-                        class = "cell-border"
+                        class = "compact hover"
     )
     dt <- dt %>% formatStyle(
       "n()",
       backgroundColor = styleInterval(
         c(100, 300),
-        c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+        c("#ff4081", "#fcbb69", "#4caf50")
       )
     )
     dt
@@ -773,7 +775,7 @@ app_server <- function(input, output, session) {
     log_info(glue("[Session {session$userData$sessionCode}] Rendering table 11 data table"))
     dt <- DT::datatable(table11_data(),
                         options = list(scrollY = "200px"),
-                        class = "cell-border"
+                        class = "compact hover"
     )
     
     # Apply conditional formatting to the column "n()"
@@ -781,7 +783,7 @@ app_server <- function(input, output, session) {
       "n()",
       backgroundColor = styleInterval(
         c(100, 300),
-        c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+        c("#ff4081", "#fcbb69", "#4caf50")
       )
     )
     
@@ -959,7 +961,7 @@ app_server <- function(input, output, session) {
     
     dt <- DT::datatable(table12_data(),
                         options = list(scrollY = "200px"),
-                        class = "cell-border"
+                        class = "compact hover"
     )
     
     # Apply conditional formatting to the column "n()"
@@ -967,7 +969,7 @@ app_server <- function(input, output, session) {
       "n()",
       backgroundColor = styleInterval(
         c(100, 300),
-        c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+        c("#ff4081", "#fcbb69", "#4caf50")
       )
     )
     
@@ -1112,7 +1114,7 @@ app_server <- function(input, output, session) {
     
     dt <- DT::datatable(table13_data(),
                         options = list(scrollY = "200px"),
-                        class = "cell-border"
+                        class = "compact hover"
     )
     
     # Apply conditional formatting to the column "n()"
@@ -1120,7 +1122,7 @@ app_server <- function(input, output, session) {
       "n()",
       backgroundColor = styleInterval(
         c(100, 300),
-        c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+        c("#ff4081", "#fcbb69", "#4caf50")
       )
     )
     
@@ -1267,7 +1269,7 @@ app_server <- function(input, output, session) {
     
     dt <- DT::datatable(table14_data(),
                         options = list(scrollY = "200px"),
-                        class = "cell-border"
+                        class = "compact hover"
     )
     
     # Apply conditional formatting to the column "n()"
@@ -1275,7 +1277,7 @@ app_server <- function(input, output, session) {
       "n()",
       backgroundColor = styleInterval(
         c(100, 300),
-        c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+        c("#ff4081", "#fcbb69", "#4caf50")
       )
     )
     
@@ -1382,7 +1384,7 @@ app_server <- function(input, output, session) {
   
   # plot 15 input
   table15_plot <- reactive({
-    log_info(glue("[Session {session$userData$sessionCode}] Generating plot for table 15"))
+    # log_info(glue("[Session {session$userData$sessionCode}] Generating plot for table 15"))
     
     Var.Group <- sym(input$Tab15Variable1)
     Var.Number <- sym(input$Tab15Variable2)
@@ -1409,7 +1411,7 @@ app_server <- function(input, output, session) {
     log_info(glue("[Session {session$userData$sessionCode}] Using colour palette: {paste(Cab.Colours, collapse = ', ')}"))
     
     # Plot
-    ggplot(table15_data(), aes(x = {{ TimeVar }}, y = Mean, fill = {{ Var.Group }})) +
+    plot <- ggplot(table15_data(), aes(x = {{ TimeVar }}, y = Mean, fill = {{ Var.Group }})) +
       geom_area(colour = "#1a1a1a", size = 1, show.legend = FALSE) +
       theme_classic() +
       theme(
@@ -1431,7 +1433,11 @@ app_server <- function(input, output, session) {
       scale_fill_manual(values = Cab.Colours) +
       ylab(input$Tab15Variable2)
     
+    plot
+    
     log_info(glue("[Session {session$userData$sessionCode}] Plot for table 15 generated"))
+    
+    plot
   })
   
   # return tab 15 data
@@ -1440,7 +1446,7 @@ app_server <- function(input, output, session) {
     
     dt <- DT::datatable(table15_data(),
                         options = list(scrollY = "200px"),
-                        class = "cell-border"
+                        class = "compact hover"
     )
     
     # Apply conditional formatting to the column "n()"
@@ -1448,7 +1454,7 @@ app_server <- function(input, output, session) {
       "n()",
       backgroundColor = styleInterval(
         c(100, 300),
-        c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+        c("#ff4081", "#fcbb69", "#4caf50")
       )
     )
     
@@ -1611,7 +1617,7 @@ app_server <- function(input, output, session) {
     log_info(glue("[Session {session$userData$sessionCode}] Modified colour palette: {paste(Cab.Colours.Modified, collapse = ', ')}"))
     
     # Plot
-    ggplot(table16_data(), aes(x = Time, y = Percentage, fill = Condition)) +
+   plot <-  ggplot(table16_data(), aes(x = Time, y = Percentage, fill = Condition)) +
       geom_area(alpha = 0.6, size = 1, colour = "#1a1a1a") +
       theme_classic() +
       theme(
@@ -1631,7 +1637,10 @@ app_server <- function(input, output, session) {
         legend.title = element_text(colour = "#1a1a1a")
       ) +
       scale_fill_manual(values = Cab.Colours)
+   
     log_info(glue("[Session {session$userData$sessionCode}] Plot for table 16 generated"))
+    
+    plot
   })
   
   # Return table 16 data
@@ -1640,7 +1649,7 @@ app_server <- function(input, output, session) {
     
     dt <- DT::datatable(table16_data(),
                         options = list(scrollY = "200px"),
-                        class = "cell-border"
+                        class = "compact hover"
     )
     
     # Apply conditional formatting to the column "n()"
@@ -1648,7 +1657,7 @@ app_server <- function(input, output, session) {
       "n",
       backgroundColor = styleInterval(
         c(100, 300),
-        c("lightcoral", "lightgoldenrodyellow", "lightgreen")
+        c("#ff4081", "#fcbb69", "#4caf50")
       )
     )
     

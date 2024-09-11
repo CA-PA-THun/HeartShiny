@@ -54,7 +54,8 @@ app_ui <- function() {
             column(selectInput("Variable2", "Choose a grouping variable:", choices = names(shiny_df %>% select(starts_with("Demographic")))), width = 6)
           ),
           fluidRow(box(DT::dataTableOutput("table1"), width = 12)),
-          downloadButton("download", "Download Data")
+          # downloadButton("download", "Download Data")
+          downloadButton("download", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
         
         # Proportions: 1 Group UI
@@ -65,7 +66,7 @@ app_ui <- function() {
             column(width = 6, selectInput("Tab2Variable2", "Choose a grouping variable:", choices = names(shiny_df %>% select(starts_with("Demographic")))))
           ),
           fluidRow(box(DT::dataTableOutput("table2"), width = 12)),
-          downloadButton("download2", "Download Data")
+          downloadButton("download2", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
         
         # Proportions: 2 Groups UI
@@ -77,7 +78,7 @@ app_ui <- function() {
             column(width = 4, selectInput("Tab3Variable3", "Choose a grouping variable:", choices = rev(names(shiny_df %>% select(starts_with("Demographic"))))))
           ),
           fluidRow(box(DT::dataTableOutput("table3"), width = 12)),
-          downloadButton("download3", "Download Data")
+          downloadButton("download3", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
         
         # Averages: 1 Group UI
@@ -88,7 +89,7 @@ app_ui <- function() {
             column(width = 6, selectInput("Tab4Variable2", "Choose a numeric variable:", choices = names(shiny_df %>% select(starts_with("Num")))))
           ),
           fluidRow(box(DT::dataTableOutput("table4"), width = 12)),
-          downloadButton("download4", "Download Data")
+          downloadButton("download4", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
         
         # Averages: 2 Groups UI
@@ -100,7 +101,7 @@ app_ui <- function() {
             column(width = 4, selectInput("Tab5Variable3", "Choose a numeric variable:", choices = names(shiny_df %>% select(starts_with("Num")))))
           ),
           fluidRow(box(DT::dataTableOutput("table5"), width = 12)),
-          downloadButton("download5", "Download Data")
+          downloadButton("download5", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
         
         # Line: 1 Group UI
@@ -114,8 +115,8 @@ app_ui <- function() {
             tabPanel("Plot", fluidRow(column(width = 12, plotlyOutput("plot10")))),
             tabPanel("Table", fluidRow(column(width = 12, DT::dataTableOutput("table10"))))
           ),
-          downloadButton("download10", "Download Data"),
-          downloadButton("download10b", "Download Graph")
+          downloadButton("download10", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
+          downloadButton("download10b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
         
         # Line: 2 Groups UI
@@ -130,8 +131,8 @@ app_ui <- function() {
             tabPanel("Plot", fluidRow(column(width = 12, plotlyOutput("plot11")))),
             tabPanel("Table", fluidRow(column(width = 12, DT::dataTableOutput("table11"))))
           ),
-          downloadButton("download11", "Download Data"),
-          downloadButton("download11b", "Download Graph")
+          downloadButton("download11", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
+          downloadButton("download11b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
         
         # Bar: Simple UI
@@ -146,8 +147,8 @@ app_ui <- function() {
             tabPanel("Plot", fluidRow(column(width = 12, plotlyOutput("plot12")))),
             tabPanel("Table", fluidRow(column(width = 12, DT::dataTableOutput("table12"))))
           ),
-          downloadButton("download12", "Download Data"),
-          downloadButton("download12b", "Download Graph")
+          downloadButton("download12", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
+          downloadButton("download12b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
         
         # Bar: Stacked UI
@@ -163,8 +164,8 @@ app_ui <- function() {
             tabPanel("Plot", fluidRow(column(width = 12, plotlyOutput("plot13")))),
             tabPanel("Table", fluidRow(column(width = 12, DT::dataTableOutput("table13"))))
           ),
-          downloadButton("download13", "Download Data"),
-          downloadButton("download13b", "Download Graph")
+          downloadButton("download13", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
+          downloadButton("download13b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
         
         # Bar: Grouped UI
@@ -180,8 +181,8 @@ app_ui <- function() {
             tabPanel("Plot", fluidRow(column(width = 12, plotlyOutput("plot14")))),
             tabPanel("Table", fluidRow(column(width = 12, DT::dataTableOutput("table14"))))
           ),
-          downloadButton("download14", "Download Data"),
-          downloadButton("download14b", "Download Graph")
+          downloadButton("download14", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
+          downloadButton("download14b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
         
         # Area: Stacked UI
@@ -196,8 +197,8 @@ app_ui <- function() {
             tabPanel("Plot", fluidRow(column(width = 12, plotlyOutput("plot15")))),
             tabPanel("Table", fluidRow(column(width = 12, DT::dataTableOutput("table15"))))
           ),
-          downloadButton("download15", "Download Data"),
-          downloadButton("download15b", "Download Graph")
+          downloadButton("download15", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
+          downloadButton("download15b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
         
         # Area: % UI
@@ -211,8 +212,8 @@ app_ui <- function() {
             tabPanel("Plot", fluidRow(column(width = 12, plotlyOutput("plot16")))),
             tabPanel("Table", fluidRow(column(width = 12, DT::dataTableOutput("table16"))))
           ),
-          downloadButton("download16", "Download Data"),
-          downloadButton("download16b", "Download Graph")
+          downloadButton("download16", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
+          downloadButton("download16b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
         
         # Scatterplots UI
@@ -224,8 +225,7 @@ app_ui <- function() {
             column(width = 4, selectInput("Tab19Variable3", "Choose a numeric variable for Y-axis:", choices = rev(names(shiny_df %>% select(starts_with("Num"))))))
           ),
           fluidRow(column(width = 12, plotlyOutput("plot19"))),
-          downloadButton("download19", "Download Data"),
-          downloadButton("download19b", "Download Graph")
+          downloadButton("download19", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
         
         # Density UI
@@ -250,7 +250,7 @@ app_ui <- function() {
               ),
               plotlyOutput(outputId = "plot17")
             ),
-            downloadButton("download17b", "Download Graph")
+            downloadButton("download17b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
           )
         )
       )

@@ -23,6 +23,7 @@ library(shinyWidgets)
 library(writexl)
 library(logger)
 library(uuid)
+library(fontawesome)
 
 ############### GLOBAL SETUP ###############################################################################
 
