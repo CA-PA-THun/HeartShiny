@@ -549,13 +549,13 @@ app_server <- function(input, output, session) {
     
     if (nrow(shiny_df) != nrow(shiny_df_original)) {
       plot <- ggplot(table10_data(), aes(x = {{ TimeVar }}, y = Mean, group = Category, color = Category)) +
-        geom_line(size = 0.75) +
+        geom_line(linewidth  = 0.75) +
         geom_point() +
         scale_colour_manual(values = Cab.Colours[1:2])
       log_info(glue("[Session {session$userData$sessionCode}] Created grouped line chart for plot 10"))
     } else {
       plot <- ggplot(table10_data(), aes(x = {{ TimeVar }}, y = Mean)) +
-        geom_line(group = 1, size = 0.75, colour = "#1a1a1a") +
+        geom_line(group = 1, linewidth  = 0.75, colour = "#1a1a1a") +
         geom_point() +
         scale_colour_manual(values = Cab.Colours)
       log_info(glue("[Session {session$userData$sessionCode}] Created original line chart for plot 10"))
@@ -567,7 +567,7 @@ app_server <- function(input, output, session) {
         axis.text.y = element_text(color = "#1a1a1a"),
         strip.background = element_rect(
           color = "#1a1a1a",
-          fill = "#fcbb69", size = 1, linetype = "solid"
+          fill = "#fcbb69", linewidth = 1, linetype = "solid"
         ),
         strip.text = element_text(colour = "#1a1a1a"),
         axis.line.x.bottom = element_line(colour = "#1a1a1a"),
@@ -737,7 +737,7 @@ app_server <- function(input, output, session) {
     }
     
     plot <- ggplot(table11_data(), aes(x = {{ TimeVar }}, y = Mean, group = {{ Var.Group }}, colour = {{ Var.Group }})) +
-      geom_line(size = 0.75) +
+      geom_line(linewidth  = 0.75) +
       geom_point() +
       theme_classic() +
       theme(
@@ -745,7 +745,7 @@ app_server <- function(input, output, session) {
         axis.text.y = element_text(color = "#1a1a1a"),
         strip.background = element_rect(
           color = "#1a1a1a",
-          fill = "#fcbb69", size = 1, linetype = "solid"
+          fill = "#fcbb69", linewidth = 1, linetype = "solid"
         ),
         strip.text = element_text(colour = "#1a1a1a"),
         axis.line.x.bottom = element_line(colour = "#1a1a1a"),
@@ -829,7 +829,7 @@ app_server <- function(input, output, session) {
     }
     
     p <- ggplot(table11_data(), aes(x = {{ TimeVar }}, y = Mean, group = {{ Var.Group }}, colour = {{ Var.Group }})) +
-      geom_line(size = 0.75) +
+      geom_line(linewidth  = 0.75) +
       geom_point() +
       theme_bw() +
       theme(
@@ -938,7 +938,7 @@ app_server <- function(input, output, session) {
         axis.text.y = element_text(color = "#1a1a1a"),
         strip.background = element_rect(
           color = "#1a1a1a",
-          fill = "#fcbb69", size = 1, linetype = "solid"
+          fill = "#fcbb69", linewidth = 1, linetype = "solid"
         ),
         strip.text = element_text(colour = "#1a1a1a"),
         axis.line.x.bottom = element_line(colour = "#1a1a1a"),
@@ -1091,7 +1091,7 @@ app_server <- function(input, output, session) {
         axis.text.y = element_text(color = "#1a1a1a"),
         strip.background = element_rect(
           color = "#1a1a1a",
-          fill = "#fcbb69", size = 1, linetype = "solid"
+          fill = "#fcbb69", linewidth = 1, linetype = "solid"
         ),
         strip.text = element_text(colour = "#1a1a1a"),
         axis.line.x.bottom = element_line(colour = "#1a1a1a"),
@@ -1247,7 +1247,7 @@ app_server <- function(input, output, session) {
         axis.text.y = element_text(color = "#1a1a1a"),
         strip.background = element_rect(
           color = "#1a1a1a",
-          fill = "#fcbb69", size = 1, linetype = "solid"
+          fill = "#fcbb69", linewidth = 1, linetype = "solid"
         ),
         strip.text = element_text(colour = "#1a1a1a"),
         axis.line.x.bottom = element_line(colour = "#1a1a1a"),
@@ -1417,7 +1417,7 @@ app_server <- function(input, output, session) {
         axis.text.y = element_text(color = "#1a1a1a"),
         strip.background = element_rect(
           color = "#1a1a1a",
-          fill = "#fcbb69", size = 1, linetype = "solid"
+          fill = "#fcbb69", linewidth = 1, linetype = "solid"
         ),
         strip.text = element_text(colour = "#1a1a1a"),
         axis.line.x.bottom = element_line(colour = "#1a1a1a"),
@@ -1491,7 +1491,7 @@ app_server <- function(input, output, session) {
         axis.text.y = element_text(color = "#1a1a1a"),
         strip.background = element_rect(
           color = "#1a1a1a",
-          fill = "#fcbb69", size = 1, linetype = "solid"
+          fill = "#fcbb69", linewidth = 1, linetype = "solid"
         ),
         strip.text = element_text(colour = "#1a1a1a"),
         axis.line.x.bottom = element_line(colour = "#1a1a1a"),
@@ -1619,7 +1619,7 @@ app_server <- function(input, output, session) {
         axis.text.y = element_text(color = "#1a1a1a"),
         strip.background = element_rect(
           color = "#1a1a1a",
-          fill = "#fcbb69", size = 1, linetype = "solid"
+          fill = "#fcbb69", linewidth = 1, linetype = "solid"
         ),
         strip.text = element_text(colour = "#1a1a1a"),
         axis.line.x.bottom = element_line(colour = "#1a1a1a"),
@@ -1689,7 +1689,7 @@ app_server <- function(input, output, session) {
         axis.text.y = element_text(color = "#1a1a1a"),
         strip.background = element_rect(
           color = "#1a1a1a",
-          fill = "#fcbb69", size = 1, linetype = "solid"
+          fill = "#fcbb69", linewidth = 1, linetype = "solid"
         ),
         strip.text = element_text(colour = "#1a1a1a"),
         axis.line.x.bottom = element_line(colour = "#1a1a1a"),
