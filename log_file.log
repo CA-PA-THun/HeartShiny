@@ -3730,3 +3730,11 @@ INFO [2024-09-12 09:55:47] [Session ffc29d96-87b8-4eb5-8504-d8af8f758658] Tab17:
 INFO [2024-09-12 09:55:47] [Session ffc29d96-87b8-4eb5-8504-d8af8f758658] Tab17: Applying conditional filter for Num_Blood_Glucose
 INFO [2024-09-12 09:55:47] [Session ffc29d96-87b8-4eb5-8504-d8af8f758658] Tab17: Data processing completed with 66971 rows
 INFO [2024-09-12 09:55:48] [Session ffc29d96-87b8-4eb5-8504-d8af8f758658] Tab17: Plotting completed
+INFO [2024-09-12 11:26:41] Session ID initialized: f1a48cc9-a81b-453b-9c51-d8bf6ad63767
+INFO [2024-09-12 11:26:41] [Session f1a48cc9-a81b-453b-9c51-d8bf6ad63767] Initial dataset (Imputed) loaded
+INFO [2024-09-12 11:26:41] [Session f1a48cc9-a81b-453b-9c51-d8bf6ad63767] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 11:26:41] [Session f1a48cc9-a81b-453b-9c51-d8bf6ad63767] Rendering level picker for variable: DOTW with levels: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+INFO [2024-09-12 11:27:23] Session ID initialized: 7f0a5755-205d-45c0-bc2b-cec1f4f6ebe2
+INFO [2024-09-12 11:27:23] [Session 7f0a5755-205d-45c0-bc2b-cec1f4f6ebe2] Initial dataset (Imputed) loaded
+INFO [2024-09-12 11:27:24] [Session 7f0a5755-205d-45c0-bc2b-cec1f4f6ebe2] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 11:27:24] [Session 7f0a5755-205d-45c0-bc2b-cec1f4f6ebe2] Rendering level picker for variable: DOTW with levels: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
