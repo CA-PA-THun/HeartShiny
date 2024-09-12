@@ -1,5 +1,16 @@
 ############### SERVER SECTION ###############################################################################
 app_server <- function(input, output, session) {
+  
+  # Observe the button click to show the modal dialog
+  observeEvent(input$showDescription, {
+    showModal(modalDialog(
+      title = "Application Description",
+      "This app allows for analysis of cardiovascular outcome data. The default dataset has missing values imputed using predictive means matching. The 'Raw' dataset is not imputed. You can also filter to specific groups of any demographic category, e.g., filter Demographic_Sex to only 'Male'. These changes apply to the rest of the application.",
+      easyClose = TRUE,
+      footer = modalButton("Close")
+    ))
+  })
+  
   # Generate a unique session code (using UUID or a random alphanumeric string)
   session$userData$sessionCode <- UUIDgenerate()
 

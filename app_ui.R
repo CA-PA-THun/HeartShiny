@@ -33,18 +33,41 @@ app_ui <- function() {
       ),
       # img(src = "mugshot.png", id = "mug"),
       img(src = "mugshot.png", id = "mug", style = "position: fixed; bottom: 20px; right: 20px; width: 100px; z-index: 9999;"),
+      # tabItems(
+      #   # Front Page UI
+      #   tabItem(
+      #     tabName = "frontPage",
+      #     fluidRow(
+      #       column(6, uiOutput("variablePicker"), uiOutput("levelPicker")),
+      #       column(6, selectInput("datasetPicker", "Choose Dataset:", choices = c("Imputed", "Raw")))
+      #     ),
+      #     actionButton("confirm", "Confirm Filter"),
+      #     actionButton("reset", "Reset Filter"),
+      #     verbatimTextOutput("filterStatus")
+      #   ),
       tabItems(
         # Front Page UI
         tabItem(
           tabName = "frontPage",
           fluidRow(
-            column(6, uiOutput("variablePicker"), uiOutput("levelPicker")),
-            column(6, selectInput("datasetPicker", "Choose Dataset:", choices = c("Imputed", "Raw")))
+            column(6, 
+                   uiOutput("variablePicker"), 
+                   uiOutput("levelPicker")
+            ),
+            column(6, 
+                   selectInput("datasetPicker", "Choose Dataset:", choices = c("Imputed", "Raw"))
+            )
           ),
-          actionButton("confirm", "Confirm Filter"),
-          actionButton("reset", "Reset Filter"),
+          fluidRow(
+            column(6, 
+                   actionButton("confirm", "Confirm Filter"),
+                   actionButton("reset", "Reset Filter"),
+                   actionButton("showDescription", "Read Me!")
+            )
+          ),
           verbatimTextOutput("filterStatus")
         ),
+      
 
         # Frequencies UI
         tabItem(
