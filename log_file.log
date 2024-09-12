@@ -3355,3 +3355,227 @@ INFO [2024-09-11 16:57:32] [Session a3b17cb9-a790-4ebf-b87f-39737d8134fe] Tab17:
 INFO [2024-09-11 16:57:32] [Session a3b17cb9-a790-4ebf-b87f-39737d8134fe] Tab17: Data processing completed with 66971 rows
 INFO [2024-09-11 16:57:32] [Session a3b17cb9-a790-4ebf-b87f-39737d8134fe] Tab17: Plotting completed
 INFO [2024-09-11 16:57:33] [Session a3b17cb9-a790-4ebf-b87f-39737d8134fe] Tab17: Downloading plot as PNG
+INFO [2024-09-12 09:11:06] Session ID initialized: 8eccd9a1-7887-4d2e-a1a4-80abb622ad7f
+INFO [2024-09-12 09:11:06] [Session 8eccd9a1-7887-4d2e-a1a4-80abb622ad7f] Initial dataset (Imputed) loaded
+INFO [2024-09-12 09:11:07] [Session 8eccd9a1-7887-4d2e-a1a4-80abb622ad7f] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 09:11:07] [Session 8eccd9a1-7887-4d2e-a1a4-80abb622ad7f] Tab 1: Rendering data table
+INFO [2024-09-12 09:11:07] [Session 8eccd9a1-7887-4d2e-a1a4-80abb622ad7f] Tab 1: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:11:07] [Session 8eccd9a1-7887-4d2e-a1a4-80abb622ad7f] Tab 1: Table data generated successfully
+INFO [2024-09-12 09:12:54] Session ID initialized: c9179195-8049-4261-acbd-a9b8fe1ab0c9
+INFO [2024-09-12 09:12:54] [Session c9179195-8049-4261-acbd-a9b8fe1ab0c9] Initial dataset (Imputed) loaded
+INFO [2024-09-12 09:12:54] [Session c9179195-8049-4261-acbd-a9b8fe1ab0c9] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 09:12:55] [Session c9179195-8049-4261-acbd-a9b8fe1ab0c9] Rendering level picker for variable: DOTW with levels: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+INFO [2024-09-12 09:12:57] [Session c9179195-8049-4261-acbd-a9b8fe1ab0c9] Tab 1: Rendering data table
+INFO [2024-09-12 09:12:57] [Session c9179195-8049-4261-acbd-a9b8fe1ab0c9] Tab 1: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:12:57] [Session c9179195-8049-4261-acbd-a9b8fe1ab0c9] Tab 1: Table data generated successfully
+INFO [2024-09-12 09:13:08] [Session c9179195-8049-4261-acbd-a9b8fe1ab0c9] Tab 2: Rendering data table
+INFO [2024-09-12 09:13:08] [Session c9179195-8049-4261-acbd-a9b8fe1ab0c9] Tab 2: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:13:08] [Session c9179195-8049-4261-acbd-a9b8fe1ab0c9] Tab 2: Table data generated successfully
+INFO [2024-09-12 09:15:14] Session ID initialized: cb0440eb-a8db-42ea-a682-0f38dd5a8223
+INFO [2024-09-12 09:15:14] [Session cb0440eb-a8db-42ea-a682-0f38dd5a8223] Initial dataset (Imputed) loaded
+INFO [2024-09-12 09:15:15] [Session cb0440eb-a8db-42ea-a682-0f38dd5a8223] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 09:15:15] [Session cb0440eb-a8db-42ea-a682-0f38dd5a8223] Tab 1: Rendering data table
+INFO [2024-09-12 09:15:15] [Session cb0440eb-a8db-42ea-a682-0f38dd5a8223] Tab 1: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:15:15] [Session cb0440eb-a8db-42ea-a682-0f38dd5a8223] Tab 1: Table data generated successfully
+INFO [2024-09-12 09:16:06] Session ID initialized: 1f8522d5-33af-44f5-a553-2e98f3e900a5
+INFO [2024-09-12 09:16:06] [Session 1f8522d5-33af-44f5-a553-2e98f3e900a5] Initial dataset (Imputed) loaded
+INFO [2024-09-12 09:16:07] [Session 1f8522d5-33af-44f5-a553-2e98f3e900a5] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 09:16:07] [Session 1f8522d5-33af-44f5-a553-2e98f3e900a5] Tab 1: Rendering data table
+INFO [2024-09-12 09:16:07] [Session 1f8522d5-33af-44f5-a553-2e98f3e900a5] Tab 1: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:16:07] [Session 1f8522d5-33af-44f5-a553-2e98f3e900a5] Tab 1: Table data generated successfully
+INFO [2024-09-12 09:16:21] [Session 1f8522d5-33af-44f5-a553-2e98f3e900a5] Tab 2: Rendering data table
+INFO [2024-09-12 09:16:21] [Session 1f8522d5-33af-44f5-a553-2e98f3e900a5] Tab 2: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:16:21] [Session 1f8522d5-33af-44f5-a553-2e98f3e900a5] Tab 2: Table data generated successfully
+INFO [2024-09-12 09:17:18] Session ID initialized: 6da4289b-e0f3-4848-b3bc-acc268d036b4
+INFO [2024-09-12 09:17:18] [Session 6da4289b-e0f3-4848-b3bc-acc268d036b4] Initial dataset (Imputed) loaded
+INFO [2024-09-12 09:17:18] [Session 6da4289b-e0f3-4848-b3bc-acc268d036b4] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 09:17:18] [Session 6da4289b-e0f3-4848-b3bc-acc268d036b4] Rendering level picker for variable: DOTW with levels: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+INFO [2024-09-12 09:17:35] Session ID initialized: 438b7892-9e7f-47df-a2b9-97a2feb19598
+INFO [2024-09-12 09:17:35] [Session 438b7892-9e7f-47df-a2b9-97a2feb19598] Initial dataset (Imputed) loaded
+INFO [2024-09-12 09:17:36] [Session 438b7892-9e7f-47df-a2b9-97a2feb19598] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 09:17:36] [Session 438b7892-9e7f-47df-a2b9-97a2feb19598] Rendering level picker for variable: DOTW with levels: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+INFO [2024-09-12 09:17:41] [Session 438b7892-9e7f-47df-a2b9-97a2feb19598] Tab 1: Rendering data table
+INFO [2024-09-12 09:17:41] [Session 438b7892-9e7f-47df-a2b9-97a2feb19598] Tab 1: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:17:41] [Session 438b7892-9e7f-47df-a2b9-97a2feb19598] Tab 1: Table data generated successfully
+INFO [2024-09-12 09:25:56] Session ID initialized: cea6902d-39d1-4507-b9dc-8860db1d5a9d
+INFO [2024-09-12 09:25:56] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Initial dataset (Imputed) loaded
+INFO [2024-09-12 09:25:57] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 09:25:57] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering level picker for variable: DOTW with levels: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+INFO [2024-09-12 09:25:58] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 1: Rendering data table
+INFO [2024-09-12 09:25:58] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 1: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:25:58] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 1: Table data generated successfully
+INFO [2024-09-12 09:26:02] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 1: Downloading data to file C:\Users\THOMAS~1.HUN\AppData\Local\Temp\3\RtmpE1Bm1n\file267017b35b10.csv
+INFO [2024-09-12 09:26:06] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 2: Rendering data table
+INFO [2024-09-12 09:26:06] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 2: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:26:06] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 2: Table data generated successfully
+INFO [2024-09-12 09:26:09] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 3: Rendering data table
+INFO [2024-09-12 09:26:09] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 3: Generating table data for variables Month, Demographic_Sex, and Demographic_DID
+INFO [2024-09-12 09:26:10] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 3: Table data generated successfully
+INFO [2024-09-12 09:26:13] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 4 data process started for Variable: Num_Blood_Glucose
+INFO [2024-09-12 09:26:13] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 4 data process completed for non-Surplus variable with 12 rows
+INFO [2024-09-12 09:26:13] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 4 data table rendered
+INFO [2024-09-12 09:26:15] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 5 data process started for Variables: Month, Demographic_Sex, Num_Blood_Glucose
+INFO [2024-09-12 09:26:15] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 5 data process completed for Surplus variable with 25 rows
+INFO [2024-09-12 09:26:15] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Tab 5 data table rendered
+INFO [2024-09-12 09:26:19] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering plot 10 as Plotly
+INFO [2024-09-12 09:26:19] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Preparing plot 10
+INFO [2024-09-12 09:26:19] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Preparing data for plot 10
+INFO [2024-09-12 09:26:19] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Filtered shiny_df for table 10 with Var.Number: Num_Blood_Glucose
+INFO [2024-09-12 09:26:19] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Filtered shiny_df_original for table 10 with Var.Number: Num_Blood_Glucose
+INFO [2024-09-12 09:26:20] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Created original line chart for plot 10
+INFO [2024-09-12 09:26:20] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Applied x-axis breaks for plot 10
+INFO [2024-09-12 09:26:20] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Plot 10 rendering complete
+INFO [2024-09-12 09:26:24] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Downloading plot 10 as PNG
+INFO [2024-09-12 09:26:28] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering plotly plot for table 11
+INFO [2024-09-12 09:26:28] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Processing data for table 11
+INFO [2024-09-12 09:26:28] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Variables used: Group = Demographic_Sex, Number = Num_Blood_Glucose
+INFO [2024-09-12 09:26:28] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Time variable: Financial_Quarter
+INFO [2024-09-12 09:26:28] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Applying conditional filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:26:28] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Table 11 data processed for Group = Demographic_Sex
+INFO [2024-09-12 09:26:28] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Applying conditional filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:26:28] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Overall data statistics added for Group = All
+INFO [2024-09-12 09:26:28] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Plotly plot rendered for table 11
+INFO [2024-09-12 09:26:30] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering table 11 data table
+INFO [2024-09-12 09:26:30] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Table 11 data table rendered
+INFO [2024-09-12 09:26:32] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering plotly plot for table 12
+INFO [2024-09-12 09:26:32] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Processing data for table 12
+INFO [2024-09-12 09:26:32] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Variables used: Group = Demographic_Sex, Number = Num_Blood_Glucose
+INFO [2024-09-12 09:26:32] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Time variable: Financial_Quarter
+INFO [2024-09-12 09:26:33] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Applying conditional filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:26:33] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Data for table 12 processed
+INFO [2024-09-12 09:26:33] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Plotly plot for table 12 rendered
+INFO [2024-09-12 09:26:35] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering table 12 data
+INFO [2024-09-12 09:26:35] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Table 12 data rendered
+INFO [2024-09-12 09:26:45] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering plotly plot for table 13
+INFO [2024-09-12 09:26:45] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Processing data for table 13
+INFO [2024-09-12 09:26:45] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Variables used: Group1 = Demographic_Sex, Group2 = Demographic_DID, Number = Num_Blood_Glucose
+INFO [2024-09-12 09:26:45] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Time variable: Financial_Quarter
+INFO [2024-09-12 09:26:45] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Applying conditional filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:26:45] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Data for table 13 processed
+INFO [2024-09-12 09:26:45] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Plotly plot for table 13 rendered
+INFO [2024-09-12 09:26:47] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering Plotly plot for table 14
+INFO [2024-09-12 09:26:47] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Processing data for table 14
+INFO [2024-09-12 09:26:47] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Variables: Group1 = Demographic_Sex, Group2 = Demographic_DID, Number = Num_Blood_Glucose
+INFO [2024-09-12 09:26:47] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Time variable: Financial_Quarter
+INFO [2024-09-12 09:26:47] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Applying filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:26:47] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Data for table 14 processed
+INFO [2024-09-12 09:26:47] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Plotly plot for table 14 rendered
+INFO [2024-09-12 09:26:49] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering Plotly plot for table 15
+INFO [2024-09-12 09:26:49] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Processing data for table 15
+INFO [2024-09-12 09:26:49] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Variables: Group = Demographic_Sex, Number = Num_Blood_Glucose, Time = Year_Quarter
+INFO [2024-09-12 09:26:49] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Applying filter for variable: Num_Blood_Glucose
+INFO [2024-09-12 09:26:49] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Data after filtering: 73867 rows remaining
+INFO [2024-09-12 09:26:49] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Data processed for table 15: 8 rows
+INFO [2024-09-12 09:26:49] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Plotly plot for table 15 rendered
+INFO [2024-09-12 09:26:52] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] )Rendering Plotly plot for table 16
+INFO [2024-09-12 09:26:52] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Processing data for table 16
+INFO [2024-09-12 09:26:52] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Variables: Group = Demographic_Sex, Time = Year_Quarter
+INFO [2024-09-12 09:26:52] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Grouped and summarized data
+INFO [2024-09-12 09:26:52] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Data processed for table 16: 8 rows
+INFO [2024-09-12 09:26:52] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Plotly plot for table 16 rendered
+INFO [2024-09-12 09:26:54] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering scatterplot for Tab19
+INFO [2024-09-12 09:26:54] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Generating scatterplot with trend lines for Tab19
+INFO [2024-09-12 09:26:54] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Starting data filtering for scatterplot: Group = Demographic_Sex, X = Num_Blood_Glucose, Y = Num_Age
+INFO [2024-09-12 09:26:54] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Filtered data contains 73863 rows.
+INFO [2024-09-12 09:26:54] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Sampled data contains 1000 rows.
+INFO [2024-09-12 09:26:54] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Scatterplot with trend lines for Tab19 generated
+INFO [2024-09-12 09:27:01] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering scatterplot for Tab19
+INFO [2024-09-12 09:27:01] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Generating scatterplot with trend lines for Tab19
+INFO [2024-09-12 09:27:02] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Starting data filtering for scatterplot: Group = Demographic_STEMI, X = Num_Blood_Glucose, Y = Num_Age
+INFO [2024-09-12 09:27:02] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Filtered data contains 73864 rows.
+INFO [2024-09-12 09:27:02] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Sampled data contains 1000 rows.
+INFO [2024-09-12 09:27:02] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Scatterplot with trend lines for Tab19 generated
+INFO [2024-09-12 09:27:06] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering scatterplot for Tab19
+INFO [2024-09-12 09:27:06] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Generating scatterplot with trend lines for Tab19
+INFO [2024-09-12 09:27:06] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Starting data filtering for scatterplot: Group = Demographic_Event_Number, X = Num_Blood_Glucose, Y = Num_Age
+INFO [2024-09-12 09:27:06] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Filtered data contains 73864 rows.
+INFO [2024-09-12 09:27:06] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Sampled data contains 1000 rows.
+INFO [2024-09-12 09:27:06] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Scatterplot with trend lines for Tab19 generated
+INFO [2024-09-12 09:27:09] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Rendering scatterplot for Tab19
+INFO [2024-09-12 09:27:09] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Generating scatterplot with trend lines for Tab19
+INFO [2024-09-12 09:27:09] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Starting data filtering for scatterplot: Group = Demographic_Age_Group, X = Num_Blood_Glucose, Y = Num_Age
+INFO [2024-09-12 09:27:09] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Filtered data contains 73864 rows.
+INFO [2024-09-12 09:27:09] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Sampled data contains 1000 rows.
+INFO [2024-09-12 09:27:09] [Session cea6902d-39d1-4507-b9dc-8860db1d5a9d] Scatterplot with trend lines for Tab19 generated
+INFO [2024-09-12 09:29:07] Session ID initialized: c5968ba9-dc06-445f-9eef-de768b0eae67
+INFO [2024-09-12 09:29:07] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Initial dataset (Imputed) loaded
+INFO [2024-09-12 09:29:08] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Rendering variable picker with valid grouping variables: DOTW, Month, Financial_Quarter, Financial_Year, Demographic_Sex, Demographic_STEMI, Demographic_Event_Number, Demographic_Age_Group, Demographic_Blood_Glucose_Quartile, Demographic_Height_Quartile, Demographic_Weight_Quartile, Demographic_Creatinine_Quartile, Demographic_Cholesterol_Quartile, Demographic_Systolic_BP_Quartile, Demographic_DTB_Quartile, Demographic_DID
+INFO [2024-09-12 09:29:08] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Rendering level picker for variable: DOTW with levels: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+INFO [2024-09-12 09:29:14] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 1: Rendering data table
+INFO [2024-09-12 09:29:14] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 1: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:29:14] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 1: Table data generated successfully
+INFO [2024-09-12 09:29:21] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 2: Rendering data table
+INFO [2024-09-12 09:29:21] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 2: Generating table data for variables Month and Demographic_Sex
+INFO [2024-09-12 09:29:21] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 2: Table data generated successfully
+INFO [2024-09-12 09:29:24] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 3: Rendering data table
+INFO [2024-09-12 09:29:24] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 3: Generating table data for variables Month, Demographic_Sex, and Demographic_DID
+INFO [2024-09-12 09:29:24] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 3: Table data generated successfully
+INFO [2024-09-12 09:29:26] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 4 data process started for Variable: Num_Blood_Glucose
+INFO [2024-09-12 09:29:26] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 4 data process completed for non-Surplus variable with 12 rows
+INFO [2024-09-12 09:29:26] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 4 data table rendered
+INFO [2024-09-12 09:29:27] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 5 data process started for Variables: Month, Demographic_Sex, Num_Blood_Glucose
+INFO [2024-09-12 09:29:27] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 5 data process completed for Surplus variable with 25 rows
+INFO [2024-09-12 09:29:27] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab 5 data table rendered
+INFO [2024-09-12 09:29:28] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Rendering plot 10 as Plotly
+INFO [2024-09-12 09:29:28] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Preparing plot 10
+INFO [2024-09-12 09:29:28] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Preparing data for plot 10
+INFO [2024-09-12 09:29:28] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Filtered shiny_df for table 10 with Var.Number: Num_Blood_Glucose
+INFO [2024-09-12 09:29:28] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Filtered shiny_df_original for table 10 with Var.Number: Num_Blood_Glucose
+INFO [2024-09-12 09:29:28] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Created original line chart for plot 10
+INFO [2024-09-12 09:29:28] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Applied x-axis breaks for plot 10
+INFO [2024-09-12 09:29:28] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Plot 10 rendering complete
+INFO [2024-09-12 09:29:35] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Rendering plotly plot for table 11
+INFO [2024-09-12 09:29:35] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Processing data for table 11
+INFO [2024-09-12 09:29:35] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Variables used: Group = Demographic_Sex, Number = Num_Blood_Glucose
+INFO [2024-09-12 09:29:35] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Time variable: Financial_Quarter
+INFO [2024-09-12 09:29:35] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Applying conditional filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:29:35] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Table 11 data processed for Group = Demographic_Sex
+INFO [2024-09-12 09:29:35] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Applying conditional filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:29:36] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Overall data statistics added for Group = All
+INFO [2024-09-12 09:29:36] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Plotly plot rendered for table 11
+INFO [2024-09-12 09:29:38] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Rendering plotly plot for table 12
+INFO [2024-09-12 09:29:38] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Processing data for table 12
+INFO [2024-09-12 09:29:38] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Variables used: Group = Demographic_Sex, Number = Num_Blood_Glucose
+INFO [2024-09-12 09:29:38] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Time variable: Financial_Quarter
+INFO [2024-09-12 09:29:38] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Applying conditional filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:29:38] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Data for table 12 processed
+INFO [2024-09-12 09:29:38] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Plotly plot for table 12 rendered
+INFO [2024-09-12 09:29:39] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Rendering plotly plot for table 13
+INFO [2024-09-12 09:29:40] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Processing data for table 13
+INFO [2024-09-12 09:29:40] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Variables used: Group1 = Demographic_Sex, Group2 = Demographic_DID, Number = Num_Blood_Glucose
+INFO [2024-09-12 09:29:40] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Time variable: Financial_Quarter
+INFO [2024-09-12 09:29:40] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Applying conditional filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:29:40] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Data for table 13 processed
+INFO [2024-09-12 09:29:40] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Plotly plot for table 13 rendered
+INFO [2024-09-12 09:29:41] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Rendering Plotly plot for table 14
+INFO [2024-09-12 09:29:41] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Processing data for table 14
+INFO [2024-09-12 09:29:41] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Variables: Group1 = Demographic_Sex, Group2 = Demographic_DID, Number = Num_Blood_Glucose
+INFO [2024-09-12 09:29:41] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Time variable: Financial_Quarter
+INFO [2024-09-12 09:29:41] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Applying filter on variable: Num_Blood_Glucose
+INFO [2024-09-12 09:29:42] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Data for table 14 processed
+INFO [2024-09-12 09:29:42] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Plotly plot for table 14 rendered
+INFO [2024-09-12 09:29:43] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Rendering Plotly plot for table 15
+INFO [2024-09-12 09:29:43] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Processing data for table 15
+INFO [2024-09-12 09:29:43] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Variables: Group = Demographic_Sex, Number = Num_Blood_Glucose, Time = Year_Quarter
+INFO [2024-09-12 09:29:43] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Applying filter for variable: Num_Blood_Glucose
+INFO [2024-09-12 09:29:43] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Data after filtering: 73867 rows remaining
+INFO [2024-09-12 09:29:43] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Data processed for table 15: 8 rows
+INFO [2024-09-12 09:29:43] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Plotly plot for table 15 rendered
+INFO [2024-09-12 09:29:45] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] )Rendering Plotly plot for table 16
+INFO [2024-09-12 09:29:45] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Processing data for table 16
+INFO [2024-09-12 09:29:45] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Variables: Group = Demographic_Sex, Time = Year_Quarter
+INFO [2024-09-12 09:29:45] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Grouped and summarized data
+INFO [2024-09-12 09:29:45] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Data processed for table 16: 8 rows
+INFO [2024-09-12 09:29:45] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Plotly plot for table 16 rendered
+INFO [2024-09-12 09:29:47] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Rendering scatterplot for Tab19
+INFO [2024-09-12 09:29:47] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Generating scatterplot with trend lines for Tab19
+INFO [2024-09-12 09:29:47] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Starting data filtering for scatterplot: Group = Demographic_Sex, X = Num_Blood_Glucose, Y = Num_Age
+INFO [2024-09-12 09:29:47] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Filtered data contains 73863 rows.
+INFO [2024-09-12 09:29:47] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Sampled data contains 1000 rows.
+INFO [2024-09-12 09:29:47] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Scatterplot with trend lines for Tab19 generated
+INFO [2024-09-12 09:29:49] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab17: Rendering Plotly plot
+INFO [2024-09-12 09:29:49] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab17: Plotting data with variables: Demographic_Sex, Num_Blood_Glucose
+INFO [2024-09-12 09:29:49] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab17: Processing data with variables: Demographic_Sex, Num_Blood_Glucose, Financial Year: 2022-23
+INFO [2024-09-12 09:29:49] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab17: Applying conditional filter for Num_Blood_Glucose
+INFO [2024-09-12 09:29:49] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab17: Data processing completed with 66971 rows
+INFO [2024-09-12 09:29:49] [Session c5968ba9-dc06-445f-9eef-de768b0eae67] Tab17: Plotting completed

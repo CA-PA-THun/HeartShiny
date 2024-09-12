@@ -31,7 +31,7 @@ app_ui <- function() {
       tags$head(
         tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
       ),
-      # img(src = "mugshot.png", id = "mug"), 
+      # img(src = "mugshot.png", id = "mug"),
       img(src = "mugshot.png", id = "mug", style = "position: fixed; bottom: 20px; right: 20px; width: 100px; z-index: 9999;"),
       tabItems(
         # Front Page UI
@@ -45,7 +45,7 @@ app_ui <- function() {
           actionButton("reset", "Reset Filter"),
           verbatimTextOutput("filterStatus")
         ),
-        
+
         # Frequencies UI
         tabItem(
           tabName = "Frequencies",
@@ -57,7 +57,7 @@ app_ui <- function() {
           # downloadButton("download", "Download Data")
           downloadButton("download", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
-        
+
         # Proportions: 1 Group UI
         tabItem(
           tabName = "Proportions",
@@ -68,7 +68,7 @@ app_ui <- function() {
           fluidRow(box(DT::dataTableOutput("table2"), width = 12)),
           downloadButton("download2", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
-        
+
         # Proportions: 2 Groups UI
         tabItem(
           tabName = "Proportions2",
@@ -80,7 +80,7 @@ app_ui <- function() {
           fluidRow(box(DT::dataTableOutput("table3"), width = 12)),
           downloadButton("download3", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
-        
+
         # Averages: 1 Group UI
         tabItem(
           tabName = "Averages",
@@ -91,7 +91,7 @@ app_ui <- function() {
           fluidRow(box(DT::dataTableOutput("table4"), width = 12)),
           downloadButton("download4", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
-        
+
         # Averages: 2 Groups UI
         tabItem(
           tabName = "Averages2",
@@ -103,7 +103,7 @@ app_ui <- function() {
           fluidRow(box(DT::dataTableOutput("table5"), width = 12)),
           downloadButton("download5", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
-        
+
         # Line: 1 Group UI
         tabItem(
           tabName = "Lines",
@@ -118,7 +118,7 @@ app_ui <- function() {
           downloadButton("download10", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
           downloadButton("download10b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
-        
+
         # Line: 2 Groups UI
         tabItem(
           tabName = "Lines2",
@@ -134,7 +134,7 @@ app_ui <- function() {
           downloadButton("download11", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
           downloadButton("download11b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
-        
+
         # Bar: Simple UI
         tabItem(
           tabName = "Bars",
@@ -150,7 +150,7 @@ app_ui <- function() {
           downloadButton("download12", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
           downloadButton("download12b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
-        
+
         # Bar: Stacked UI
         tabItem(
           tabName = "Bars2",
@@ -167,7 +167,7 @@ app_ui <- function() {
           downloadButton("download13", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
           downloadButton("download13b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
-        
+
         # Bar: Grouped UI
         tabItem(
           tabName = "Bars3",
@@ -184,7 +184,7 @@ app_ui <- function() {
           downloadButton("download14", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
           downloadButton("download14b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
-        
+
         # Area: Stacked UI
         tabItem(
           tabName = "Areas",
@@ -200,7 +200,7 @@ app_ui <- function() {
           downloadButton("download15", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
           downloadButton("download15b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
-        
+
         # Area: % UI
         tabItem(
           tabName = "Areas2",
@@ -215,7 +215,7 @@ app_ui <- function() {
           downloadButton("download16", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon"),
           downloadButton("download16b", label = HTML('<i class="fa-solid fa-chart-line"></i>'), class = "btn-icon")
         ),
-        
+
         # Scatterplots UI
         tabItem(
           tabName = "ScatterGrouped",
@@ -227,7 +227,7 @@ app_ui <- function() {
           fluidRow(column(width = 12, plotlyOutput("plot19"))),
           downloadButton("download19", label = HTML('<i class="fa-solid fa-file-csv"></i>'), class = "btn-icon")
         ),
-        
+
         # Density UI
         tabItem(
           tabName = "Density",
@@ -257,6 +257,3 @@ app_ui <- function() {
     )
   )
 }
-
-
-                     
