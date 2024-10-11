@@ -4,7 +4,7 @@
 - built in a shinydashboard context as i've found it is the most intuitive for creating multiple tab items.
 
 ##### AUTHOR #################################################################################################################################################################################################
-- All code written by Dr Tom Hunter who consents to its wider use, adaptation, and monetisation.
+- All code written by Dr Tom Hunter who consents to its wider use or adaptation.
 
 ##### DATA #################################################################################################################################################################################################
 - shiny_df = ~73k or mock cardiovascular data which has undergone significant imputation and then averaging using the MICE package
